@@ -1,0 +1,27 @@
+# Python System
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Data & Storage (Don't commit datasets or vector stores)
+# We keep the READMEs but ignore actual content
+data/*
+!data/README.md
+!data/*.txt 
+
+Vector_Store/*
+!Vector_Store/README.md
+embeddings/*
+!embeddings/README.md
+
+# ChromaDB specific
+chroma_db/
+
+# IDE settings
+.vscode/
+.idea/
